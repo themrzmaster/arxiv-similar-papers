@@ -41,7 +41,7 @@ def get_topk(out, text_emb, k=10):
         
 
 model_id = "sentence-transformers/all-MiniLM-L6-v2"
-hf_token = "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"
+hf_token = "HF_TOKEN"
 st.header("Find Arxiv papers")
 model = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2')
 text_ref = st.text_area("Input text (title, abstract)")
